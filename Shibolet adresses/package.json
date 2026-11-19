@@ -1,0 +1,16 @@
+{
+  "name": "shibolet-address",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "exceljs": "4.4.0",
+    "papaparse": "5.5.3"
+  },
+  "devDependencies": {
+    "vite": "^7.3.0"
+  }
+}

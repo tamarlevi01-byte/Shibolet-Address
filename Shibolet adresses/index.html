@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>שיבולת | הסדרת כתובות</title>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="brand">שיבולת</p>
+      <h1>הסדרת כתובות גבייה</h1>
+      <p>פצלו כתובות לרחוב, מספר בית, דירה ויישוב. הקובץ מעובד בדפדפן שלכם.</p>
+    </header>
+    <section class="controls">
+      <label>קובץ גבייה <input id="file" type="file" accept=".csv,.xlsx"></label>
+      <label id="sheet-field" hidden>גיליון <select id="sheet"></select></label>
+      <label id="column-field" hidden>עמודת כתובת <select id="column"></select></label>
+      <button id="export" type="button" hidden>הורדת Excel</button>
+    </section>
+    <p id="status" role="status">אפשר להעלות קובץ XLSX או CSV.</p>
+    <section id="review" hidden>
+      <div class="table-scroll"><table><thead id="head"></thead><tbody id="rows"></tbody></table></div>
+      <nav aria-label="עמודי תוצאות">
+        <button id="prev" type="button">הקודם</button>
+        <span id="page"></span>
+        <button id="next" type="button">הבא</button>
+      </nav>
+    </section>
+  </main>
+  <script type="module" src="/web.js"></script>
+</body>
+</html>

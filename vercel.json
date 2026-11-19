@@ -1,0 +1,7 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "npm ci --prefix 'Shibolet adresses'",
+  "buildCommand": "npm run build --prefix 'Shibolet adresses'",
+  "outputDirectory": "Shibolet adresses/dist"
+}

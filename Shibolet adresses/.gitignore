@@ -6,3 +6,7 @@ __pycache__/
 *.csv
 .env
 .streamlit/secrets.toml
+
+node_modules/
+dist/
+.vercel/

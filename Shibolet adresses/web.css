@@ -1,0 +1,22 @@
+:root { font-family: system-ui, sans-serif; color: #173832; background: #eff5f2; }
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { margin: 0; }
+main { max-width: 72rem; margin: auto; padding: 3rem clamp(1rem, 4vw, 3rem); }
+header { margin-bottom: 2rem; }
+.brand { color: #176355; font-weight: 750; margin-bottom: .4rem; }
+h1 { font-size: clamp(2rem, 6vw, 3.5rem); margin: 0; letter-spacing: -.04em; }
+.controls, #review { background: white; border: 1px solid #ccdcd4; border-radius: 1rem; }
+.controls { display: flex; flex-wrap: wrap; align-items: end; gap: 1rem; padding: 1rem; }
+label { display: grid; gap: .35rem; font-weight: 600; max-width: 100%; }
+input, select, button { font: inherit; max-width: 100%; }
+input, select { color: inherit; border: 1px solid #a8c2b7; border-radius: .45rem; padding: .45rem; min-width: 0; }
+button { background: #176355; color: white; border: 0; border-radius: .45rem; padding: .55rem .9rem; cursor: pointer; }
+button:disabled { background: #dbe7e2; color: #45615a; cursor: default; }
+:focus-visible { outline: 2px solid #106eae; outline-offset: 2px; }
+.table-scroll { overflow: auto; }
+table { border-collapse: collapse; width: 100%; min-width: 48rem; text-align: start; }
+th, td { padding: .55rem; border-bottom: 1px solid #dbe7e2; text-align: start; }
+th { background: #f4f8f6; }
+td input, td select { width: 100%; }
+nav { display: flex; align-items: center; justify-content: center; gap: 1rem; padding: .85rem; }
